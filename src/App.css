@@ -1,0 +1,147 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./fondo.jpeg);
+}
+
+.containerform{ 
+  margin-top: 2rem;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 4rem;
+  background-color: white;
+  width: 85%;
+  border-radius: 1rem ;
+  box-shadow: 0 0 8px;
+  
+
+}
+h2{
+  margin-bottom: 2rem;
+}
+
+.containerName{
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  width: 100%;
+
+}
+
+form > div{
+  text-align: left;
+}
+
+.containerform label{
+  margin-right: 1rem;
+  align-content: center;
+
+}
+
+.containerlastName{
+  text-align: left;
+  width: 70%;
+}
+H4{
+  width: 10px;
+  display: inline;
+  margin-right: 0.4rem;
+}
+
+#email{
+  width: 80%;
+}
+
+#password{
+  width: 80%;
+}
+#birthday{
+  width: 80%;
+}
+#lastName{
+  width:75% ;
+}
+#firstName{
+  width:75%
+}
+
+.upload{
+  width: 100%;
+  border-style: none;
+  height: 1rem;
+  border-radius: 0.4rem;
+  background-color: rgb(22, 173, 143);
+}
+input::placeholder{
+  color: rgba(133, 133, 133, 0.637);
+  border-style: none;
+}
+input:focus{
+  outline: none;
+
+}
+
+
+.containerUpload{
+  width: 100%;
+  text-align: center;
+}
+
+form input{
+  background-color: rgb(185, 185, 185);
+  border-radius: 0.4rem;
+  border-style: none;
+  text-align: center;
+  height: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+form > div{
+  height: 2rem;
+  padding: 0.3rem ;
+}
+.containerList{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+  background-color: white;
+  margin-top: 1rem;
+  text-align: left;
+  width: 60%;
+  border-radius: 1rem;
+  padding: 1rem 4.5rem;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.614);
+  
+}
+
+.containerButton{
+  display: flex;
+  justify-content: right;
+}
+#delete{
+  color: red;
+  margin-left: 0.5rem;
+}
